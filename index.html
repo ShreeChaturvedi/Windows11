@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Windows 11</title>
+    <script src="./scripts/script.js" async></script>
+  </head>
+  <body>
+    <div class="brightness-filter"></div>
+    <div class="night-light-filter"></div>
+
+    <div class="start-menu frosted-glass">
+      <div class="search-bar">
+        <label for="search-bar-input">
+          <span class="icon"></span>
+        </label>
+        <input
+          type="text"
+          name="search-bar-input"
+          id="search-bar-input"
+          placeholder="Type here to search"
+          spellcheck="false"
+        />
+      </div>
+      <div class="apps">
+        <div class="head">
+          <div class="text">Pinned</div>
+          <button>
+            <div class="text">All apps</div>
+            <span class="icon"></span>
+          </button>
+        </div>
+        <div class="app-grid">
+          <div class="app">
+            <span
+              class="app-icon"
+              style="background-image: url('./icons/apps/edge.png')"
+            ></span>
+            <span class="text">Edge</span>
+          </div>
+          <div class="app">
+            <span
+              class="app-icon"
+              style="background-image: url('./icons/apps/word.png')"
+            ></span>
+            <span class="text">Word</span>
+          </div>
+          <div class="app">
+            <span
+              class="app-icon"
+              style="background-image: url('./icons/apps/excel.png')"
+            ></span>
+            <span class="text">excel</span>
+          </div>
+          <div class="app">
+            <span
+              class="app-icon"
+              style="background-image: url('./icons/apps/powerpoint.png')"
+            ></span>
+            <span class="text">PowerPoint</span>
+          </div>
+          <div class="app">
+            <span
+              class="app-icon"
+              style="background-image: url('./icons/apps/mail.png')"
+            ></span>
+            <span class="text">mail</span>
+          </div>
+          <div class="app">
+            <span
+              class="app-icon"
+              style="background-image: url('./icons/apps/calendar.png')"
+            ></span>
+            <span class="text">calendar</span>
+          </div>
+          <div class="app">
+            <span
+              class="app-icon"
+              style="background-image: url('./icons/apps/store.png')"
+            ></span>
+            <span class="text">store</span>
+          </div>
+          <div class="app">
+            <span
+              class="app-icon"
+              style="background-image: url('./icons/apps/photos.png')"
+            ></span>
+            <span class="text">photos</span>
+          </div>
+          <div class="app">
+            <span
+              class="app-icon"
+              style="background-image: url('./icons/apps/onenote.png')"
+            ></span>
+            <span class="text">OneNote</span>
+          </div>
+          <div class="app">
+            <span
+              class="app-icon"
+              style="background-image: url('./icons/apps/your-phone.png')"
+            ></span>
+            <span class="text">your phone</span>
+          </div>
+          <div class="app">
+            <span
+              class="app-icon"
+              style="background-image: url('./icons/apps/todo.png')"
+            ></span>
+            <span class="text">to do</span>
+          </div>
+          <div class="app">
+            <span
+              class="app-icon"
+              style="background-image: url('./icons/apps/settings.ico')"
+            ></span>
+            <span class="text">settings</span>
+          </div>
+          <div class="app">
+            <span
+              class="app-icon"
+              style="background-image: url('./icons/apps/calculator.png')"
+            ></span>
+            <span class="text">calculator</span>
+          </div>
+          <div class="app">
+            <span
+              class="app-icon"
+              style="background-image: url('./icons/apps/alarms-and-clock.png')"
+            ></span>
+            <span class="text">clock</span>
+          </div>
+          <div class="app">
+            <span
+              class="app-icon"
+              style="background-image: url('./icons/apps/office.png')"
+            ></span>
+            <span class="text">office</span>
+          </div>
+          <div class="app">
+            <span
+              class="app-icon"
+              style="background-image: url('./icons/apps/movies-and-tv.png')"
+            ></span>
+            <span class="text">movies & TV</span>
+          </div>
+          <div class="app">
+            <span
+              class="app-icon"
+              style="background-image: url('./icons/apps/firefox.png')"
+            ></span>
+            <span class="text">firefox</span>
+          </div>
+          <div class="app">
+            <span
+              class="app-icon"
+              style="background-image: url('./icons/apps/file\ explorer.png')"
+            ></span>
+            <span class="text">explorer</span>
+          </div>
+        </div>
+      </div>
+      <div class="recommended">
+        <div class="head">
+          <div class="text">Recommended</div>
+          <button>
+            <div class="text">More</div>
+            <span class="icon"></span>
+          </button>
+        </div>
+        <div class="document-grid">
+          <div class="document">
+            <div
+              class="document-icon"
+              style="
+                background-image: url('./icons/documents/word-document.png');
+              "
+            ></div>
+            <div class="text">
+              <div class="text-head">Shreebatsa's essay</div>
+              <div class="text-subhead">17m ago</div>
+            </div>
+          </div>
+
+          <div class="document">
+            <div
+              class="document-icon"
+              style="
+                background-image: url('./icons/documents/excel-document.png');
+              "
+            ></div>
+            <div class="text">
+              <div class="text-head">Expense Worksheet</div>
+              <div class="text-subhead">12h ago</div>
+            </div>
+          </div>
+
+          <div class="document">
+            <div
+              class="document-icon"
+              style="
+                background-image: url('./icons/documents/powerpoint-document.png');
+              "
+            ></div>
+            <div class="text">
+              <div class="text-head">Class Presentation</div>
+              <div class="text-subhead">Yesterday at 1:15 PM</div>
+            </div>
+          </div>
+
+          <div class="document">
+            <div
+              class="document-icon"
+              style="
+                background-image: url('./icons/documents/excel-document.png');
+              "
+            ></div>
+            <div class="text">
+              <div class="text-head">Quaterly Payroll Report</div>
+              <div class="text-subhead">2d ago</div>
+            </div>
+          </div>
+
+          <div class="document">
+            <div
+              class="document-icon"
+              style="
+                background-image: url('./icons/documents/pdf-document.ico');
+              "
+            ></div>
+            <div class="text">
+              <div class="text-head">Physics Notes</div>
+              <div class="text-subhead">Yesterday at 4:24 PM</div>
+            </div>
+          </div>
+
+          <div class="document">
+            <div
+              class="document-icon"
+              style="background-image: url('./icons/documents/folder.ico')"
+            ></div>
+            <div class="text">
+              <div class="text-head">Vacation Photos</div>
+              <div class="text-subhead">June 7</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="power-menu">
+        <div class="user-info">
+          <div class="profile-icon"></div>
+          <div class="name">Shreebatsa Chaturvedi</div>
+        </div>
+        <span class="power-icon"></span>
+      </div>
+    </div>
+
+    <div class="utility-menu wifi-menu frosted-glass">
+      <div class="alert">turn on wifi to see available networks</div>
+
+      <div class="one">
+        <span class="icon"></span>
+        <span class="heading">Wi-Fi</span>
+        <label class="switch">
+          <input type="checkbox" id="wifi-toggle" checked />
+          <span class="checkbox-slider round"></span>
+        </label>
+      </div>
+
+      <div class="two">
+        <div class="wifi-card">
+          <div class="info">
+            <div class="icon"></div>
+            <div class="details">
+              <div class="name">Shreebatsa Chaturvedi</div>
+              <div class="status">secured</div>
+            </div>
+          </div>
+          <div class="additional">
+            <div class="properties">properties</div>
+            <div class="connect-button">Connect</div>
+          </div>
+        </div>
+
+        <div class="wifi-card">
+          <div class="info">
+            <div class="icon"></div>
+            <div class="details">
+              <div class="name">John Smith</div>
+              <div class="status">secured</div>
+            </div>
+          </div>
+          <div class="additional">
+            <div class="properties">properties</div>
+            <div class="connect-button">Connect</div>
+          </div>
+        </div>
+
+        <div class="wifi-card">
+          <div class="info">
+            <div class="icon"></div>
+            <div class="details">
+              <div class="name">Robert James</div>
+              <div class="status">Secured</div>
+            </div>
+          </div>
+          <div class="additional">
+            <div class="properties">properties</div>
+            <div class="connect-button">Connect</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="three">
+        <div class="link">
+          <span class="icon"></span>
+          <span class="text">settings</span>
+          <span class="arrow-container">
+            <span class="arrow"></span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="utility-menu battery-menu frosted-glass">
+      <div class="one">
+        <span class="icon"></span>
+        <span class="text">70%</span>
+      </div>
+      <div class="two">power mode: on battery</div>
+      <div class="three">
+        <div class="slider">
+          <input
+            type="range"
+            name="power-mode"
+            id="power-slider"
+            min="1"
+            max="3"
+          />
+        </div>
+        <div class="labels">
+          <div class="left">
+            <div class="icon"></div>
+            <div class="text">Best Battery Life</div>
+          </div>
+          <div class="right">
+            <div class="icon"></div>
+            <div class="text">Best Performance</div>
+          </div>
+        </div>
+      </div>
+      <div class="four">
+        <div class="link">
+          <span class="icon"></span>
+          <span class="text">settings</span>
+          <span class="arrow-container">
+            <span class="arrow"></span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="utility-menu speaker-menu frosted-glass">
+      <div class="one">audio source: speaker</div>
+
+      <div class="volume-adjust">
+        <span class="volume-icon icon" id="speaker-menu-volume-icon"></span>
+
+        <div class="slider">
+          <input
+            type="range"
+            name="power-mode"
+            id="power-mode"
+            min="0"
+            max="100"
+            value="35"
+            onmousemove="rangeSlider(this.value, 'speaker-menu-volume-icon', 'speaker-menu-volume')"
+            onchange="rangeSlider(this.value, 'speaker-menu-volume-icon', 'speaker-menu-volume')"
+          />
+        </div>
+        <span class="volume" id="speaker-menu-volume">35</span>
+      </div>
+
+      <div class="link">
+        <span class="icon"></span>
+        <span class="text">settings</span>
+        <span class="arrow-container">
+          <span class="arrow"></span>
+        </span>
+      </div>
+    </div>
+
+    <div class="utility-menu mic-menu frosted-glass">
+      <div class="one">input device: Realtek(R) mic</div>
+      <div class="two">
+        <div class="master-volume">Master Volume</div>
+        <div class="volume-adjust">
+          <span class="volume-icon icon" id="mic-menu-volume-icon"></span>
+          <div class="slider">
+            <input
+              type="range"
+              name="power-mode"
+              id="power-mode"
+              min="0"
+              max="100"
+              value="100"
+              onmousemove="rangeSlider(this.value, 'mic-menu-volume-icon', 'mic-menu-volume')"
+              onchange="rangeSlider(this.value, 'mic-menu-volume-icon', 'mic-menu-volume')"
+            />
+          </div>
+          <span class="volume" id="mic-menu-volume">100</span>
+        </div>
+      </div>
+      <div class="link">
+        <span class="icon"></span>
+        <span class="text">settings</span>
+        <span class="arrow-container">
+          <span class="arrow"></span>
+        </span>
+      </div>
+    </div>
+
+    <div class="utility-menu action-center-menu frosted-glass">
+      <div class="notifications">
+        <div class="notification-card animated-border glow-cursor">
+          <div class="one">
+            <div
+              class="icon"
+              style="
+                background-image: url('./icons/notification-apps/facebook.png');
+              "
+            ></div>
+            <div class="info">
+              <div class="head">Facebook</div>
+              <div class="subhead">Shreebatsa wants to be friends</div>
+            </div>
+          </div>
+          <div class="actions">
+            <div class="save"></div>
+            <div class="delete"></div>
+          </div>
+        </div>
+
+        <div class="notification-card animated-border glow-cursor">
+          <div class="one">
+            <div
+              class="icon"
+              style="
+                background-image: url('./icons/notification-apps/instagram.png');
+              "
+            ></div>
+            <div class="info">
+              <div class="head">Instagram</div>
+              <div class="subhead">John Smith liked your photo</div>
+            </div>
+          </div>
+          <div class="actions">
+            <div class="save"></div>
+            <div class="delete"></div>
+          </div>
+        </div>
+
+        <div class="notification-card animated-border glow-cursor">
+          <div class="one">
+            <div
+              class="icon"
+              style="
+                background-image: url('./icons/notification-apps/twitter.png');
+              "
+            ></div>
+            <div class="info">
+              <div class="head">Twitter</div>
+              <div class="subhead"><strong>@Charlie</strong> followed you</div>
+            </div>
+          </div>
+          <div class="actions">
+            <div class="save"></div>
+            <div class="delete"></div>
+          </div>
+        </div>
+
+        <div class="notification-card animated-border glow-cursor">
+          <div class="one">
+            <div
+              class="icon"
+              style="
+                background-image: url('./icons/notification-apps/tiktok.png');
+              "
+            ></div>
+            <div class="info">
+              <div class="head">TikTok</div>
+              <div class="subhead">Someone liked your video</div>
+            </div>
+          </div>
+          <div class="actions">
+            <div class="save"></div>
+            <div class="delete"></div>
+          </div>
+        </div>
+
+        <div class="notification-card animated-border glow-cursor">
+          <div class="one">
+            <div
+              class="icon"
+              style="
+                background-image: url('./icons/notification-apps/youtube.png');
+              "
+            ></div>
+            <div class="info">
+              <div class="head">YouTube</div>
+              <div class="subhead">Congratulations on 10K subscribers!</div>
+            </div>
+          </div>
+          <div class="actions">
+            <div class="save"></div>
+            <div class="delete"></div>
+          </div>
+        </div>
+
+        <div class="notification-card animated-border glow-cursor">
+          <div class="one">
+            <div
+              class="icon"
+              style="
+                background-image: url('./icons/notification-apps/linkedin.png');
+              "
+            ></div>
+            <div class="info">
+              <div class="head">LinkedIn</div>
+              <div class="subhead">Finish setting up your profile.</div>
+            </div>
+          </div>
+          <div class="actions">
+            <div class="save"></div>
+            <div class="delete"></div>
+          </div>
+        </div>
+
+        <div class="notification-card animated-border glow-cursor">
+          <div class="one">
+            <div
+              class="icon"
+              style="
+                background-image: url('./icons/notification-apps/mail.png');
+              "
+            ></div>
+            <div class="info">
+              <div class="head">Mail</div>
+              <div class="subhead">You have 20 unread emails</div>
+            </div>
+          </div>
+          <div class="actions">
+            <div class="save"></div>
+            <div class="delete"></div>
+          </div>
+        </div>
+
+        <div class="notification-card animated-border glow-cursor">
+          <div class="one">
+            <div
+              class="icon"
+              style="
+                background-image: url('./icons/notification-apps/messenger.png');
+              "
+            ></div>
+            <div class="info">
+              <div class="head">Messenger</div>
+              <div class="subhead">Iron Man sent a photo</div>
+            </div>
+          </div>
+          <div class="actions">
+            <div class="save"></div>
+            <div class="delete"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="two">
+        <div class="collapse">Collapse</div>
+        <div class="clear">Clear All Notifications</div>
+      </div>
+
+      <div class="controls">
+        <div class="control-card network">
+          <div class="icon"></div>
+          <div class="text">Network</div>
+        </div>
+        <div class="control-card bluetooth">
+          <div class="icon"></div>
+          <div class="text">Bluetooth</div>
+        </div>
+        <div class="control-card dark-mode">
+          <div class="icon"></div>
+          <div class="text">Dark Mode</div>
+        </div>
+        <div class="control-card airplane-mode">
+          <div class="icon"></div>
+          <div class="text">Airplane mode</div>
+        </div>
+        <div class="control-card location">
+          <div class="icon"></div>
+          <div class="text">Location</div>
+        </div>
+        <div class="control-card focus-assist">
+          <div class="icon"></div>
+          <div class="text">Focus assist</div>
+        </div>
+        <div class="control-card mobile-hotspot">
+          <div class="icon"></div>
+          <div class="text">Mobile hotspot</div>
+        </div>
+        <div class="control-card night-light">
+          <div class="icon"></div>
+          <div class="text">Night light</div>
+        </div>
+        <div class="control-card vpn">
+          <div class="icon"></div>
+          <div class="text">VPN</div>
+        </div>
+        <div class="control-card battery-saver">
+          <div class="icon"></div>
+          <div class="text">Battery saver</div>
+        </div>
+        <div class="control-card project">
+          <div class="icon"></div>
+          <div class="text">Project</div>
+        </div>
+        <div class="control-card connect">
+          <div class="icon"></div>
+          <div class="text">Connect</div>
+        </div>
+      </div>
+      <div class="brightness animated-border">
+        <div class="icon" id="brightness-icon"></div>
+        <div class="slider">
+          <input
+            type="range"
+            name="brightness-mode"
+            id="brightness-slider"
+            min="50"
+            max="100"
+            value="100"
+            onmousemove="brightnessSlider(this.value)"
+            onchange="brightnessSlider(this.value)"
+            autocomplete="off"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="taskbar frosted-glass">
+      <div class="left-bumper"></div>
+      <div class="app-bar">
+        <span class="start"></span>
+        <span class="search icon"></span>
+        <span class="explorer"></span>
+        <span class="edge"></span>
+        <span class="firefox"></span>
+        <span class="mail"></span>
+        <span class="calculator"></span>
+        <span class="store"></span>
+        <span class="settings"></span>
+      </div>
+      <div class="status-bar">
+        <span class="wifi icon"></span>
+        <span class="battery icon"></span>
+        <span class="speaker icon"></span>
+        <span class="mic icon"></span>
+        <span class="action-center icon"></span>
+      </div>
+    </div>
+    <video autoplay muted>
+      <source src="./background/video.webm" type="video/webm" />
+    </video>
+  </body>
+</html>
