@@ -652,6 +652,7 @@ body.dark .start-menu {
 }
 
 .utility-menu {
+  --position: -100%;
   width: 350px;
   height: 250px;
   border-radius: var(--panel-border-radius);
